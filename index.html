@@ -1,0 +1,36 @@
+html>
+  <head>
+ <! -- inicio de head o encabezado --> 
+    
+    <title>Image recognition</title>
+    <! -- titulo del proyecto -->
+    
+   
+    <! -- inicio de las librerias o del contexto qe le damos a nuestra pagina web para funcionar adecuadmente, incluimos librerias de AI  --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="hola.css">
+  
+  </head>
+
+  <body>
+   
+    <h1> Identificador  </h1>
+    <h1 id="resultado">resultado</h1>
+    <h1 id="confianza">confianza</h1>
+ <div id="camara"></div>
+ <div id="foto"></div>
+   <br>
+ <button onclick="foto()"> tomar foto</button>  <br>
+ <button onclick="identificar()"> identificar objeto</button>
+     
+    <script src="ola.js"></script>
+
+  </body>
+</html>
